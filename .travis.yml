@@ -7,6 +7,10 @@ git:
 branches:
   only:
     - master
+    
 before_script:
   - "npm install wru"
   - "which sqlite3"
+
+archive: true
+build_image: drydock/u14nodpls:tip 
