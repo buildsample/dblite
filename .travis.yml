@@ -10,3 +10,4 @@ branches:
 before_script:
   - "npm install wru"
   - "which sqlite3"
+build_image: drydock/u14nodpls:tip 
